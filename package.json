@@ -1,0 +1,24 @@
+{
+  "name": "fetch-challenge",
+  "version": "1.0.0",
+  "description": "This project is sdet challenge implemented using cypress and cucucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "priyamvadab",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress": "^12.0.0",
+    "esbuild": "^0.17.0",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/",
+    "nonGlobalStepDefinitions": true
+  }
+}
