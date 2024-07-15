@@ -1,5 +1,6 @@
 # Fetch Coding Exercise - SDET
 This is the coding challenge of Fetch Rewards.
+https://fetch-hiring.s3.amazonaws.com/SDET/Fetch_Coding_Exercise_SDET.pdf
 
 ## Description
 Design a automation framework that finds the fake gold bar by adding bars on left and right grid and weighing them.
